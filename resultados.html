@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados Electorales 2025</h1>
+        <div class="chart-container">
+            <canvas id="resultsChart"></canvas>
+        </div>
+        <div class="results-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Candidato</th>
+                        <th>Partido</th>
+                        <th>Votos</th>
+                        <th>%</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsBody"></tbody>
+            </table>
+        </div>
+        <div class="actions">
+            <button id="resetBtn" class="btn danger">Reiniciar Votos</button>
+            <a href="index.html" class="btn">Volver a Votar</a>
+        </div>
+    </div>
+    <script src="resultados.js"></script>
+</body>
+</html>
